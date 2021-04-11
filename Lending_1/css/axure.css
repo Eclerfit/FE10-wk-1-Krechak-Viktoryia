@@ -1,0 +1,56 @@
+
+.axure {
+  width: 100%;
+  background-image: url('../img/bg/town.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 58px 0px 49px 0px;
+  position: relative;
+}
+
+.axure::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.axure-container{
+  z-index: 999;
+  position: relative;
+}
+
+.axure-title {
+  color: #FFFFFF !important;
+}
+
+.axure-title::after {
+  background-color: #FFFFFF !important;
+}
+.axure-text {
+color: rgba(255,255,255, 0.8) !important;
+font-family: 'Raleway', sans-serif !important;
+font-size: 16px !important;
+font-weight: 300 !important;
+}
+
+.button {
+  text-align: center;
+  margin: 0 auto;
+  color: #FFFFFF;
+  padding: 11px 26px;
+  border: 1px solid #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  width: 135px;
+}
+
+.button:hover {
+  transform: scale(1.25,1.25);
+}

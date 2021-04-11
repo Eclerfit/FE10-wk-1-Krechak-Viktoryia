@@ -1,0 +1,85 @@
+.customers-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 -15px;
+}
+
+.customers-card {
+  display: flex;
+  flex-flow: column-reverse wrap;
+  justify-content: space-between;
+  max-width: 298px;
+  margin-left: 15px;
+  margin-right: 15px;
+  }
+
+.customers-person {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+ 
+}
+.customers-image {
+  margin-right: 60px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  
+}
+.photo {
+  margin: 0 auto;
+  display: block;
+}
+
+.contact {
+  text-align: end;
+}
+
+.name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 12px;
+}
+
+.prof {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878B;
+}
+
+.message {
+  border-radius: 7px;
+  padding: 9px 22px 6px 23px;
+  text-align: center;
+  background-color: #E2E2E2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878B;
+  margin-bottom: 30px;
+  position: relative;
+  }
+
+  .message:hover {
+    box-shadow: 5px 5px 5px 5px rgba(145, 141, 141, 0.9), inset 5px 5px 5px 5px rgba(160, 158, 158, 0.9);
+  }
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 17px solid #E2E2E2;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: auto;
+  }

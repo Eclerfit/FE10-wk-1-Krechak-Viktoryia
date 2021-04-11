@@ -1,0 +1,47 @@
+
+.header-logo {
+color:#FFFFFF;
+font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+font-size: 30px;
+font-weight: 400;
+margin: 0 auto;
+display: block;
+}
+
+.header-logo::after {
+  content: "it";
+  position: relative;
+  top: 0;
+  width: 0;
+  color: #D98943;
+}
+
+.header-row {
+  margin: -30px 0 0 650px;
+  max-width: 490px; 
+}
+
+.header-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.header-menu__item {
+  color: rgba(255,255,255,0.7);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  padding: 2px;
+  border: transparent 1px solid;
+}
+
+.header-menu__item:hover {
+  border: #FFFFFF 1px solid;
+  border-right: none;
+  border-top: none; 
+  color: #FFFFFF;
+  
+}
