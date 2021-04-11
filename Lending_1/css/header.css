@@ -36,6 +36,11 @@ display: block;
   display: block;
   padding: 2px;
   border: transparent 1px solid;
+  margin-right: 15px;
+}
+
+.header-menu__item:last-child {
+  margin-right: 0;
 }
 
 .header-menu__item:hover {

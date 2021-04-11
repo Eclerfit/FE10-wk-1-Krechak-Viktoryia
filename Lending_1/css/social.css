@@ -12,12 +12,13 @@
   margin-bottom: 17px !important;
   text-align: left !important;
  
-
 }
-
 .social-row {
   margin: -65px 0 0 525px;
   max-width: 684px;
+}
+
+.social-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -28,6 +29,11 @@
   font-size: 42px;
   font-weight: 600;
   color: rgba(29, 27, 27, 0.2);
+  margin-right: 15px;
+}
+
+.social-icon:last-child {
+  margin-right: 0;
 }
 
 .social-icon__fb:hover {
