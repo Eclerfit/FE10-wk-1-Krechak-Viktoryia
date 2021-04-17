@@ -1,23 +1,4 @@
 
-.axure {
-  width: 100%;
-  background-image: url('../img/bg/town.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 58px 0px 49px 0px;
-  position: relative;
-}
-
-.axure::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  display: block;
-  background-color: rgba(0, 0, 0, 0.55);
-}
 
 .axure-container{
   z-index: 999;
@@ -38,7 +19,7 @@ font-size: 16px !important;
 font-weight: 300 !important;
 }
 
-.button {
+.axure-button {
   text-align: center;
   margin: 0 auto;
   color: #FFFFFF;
@@ -51,6 +32,6 @@ font-weight: 300 !important;
   width: 135px;
 }
 
-.button:hover {
+.axure-button:hover {
   transform: scale(1.25,1.25);
-}
+

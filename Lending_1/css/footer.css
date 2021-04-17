@@ -1,59 +1,57 @@
-.footer-row {
-  margin: 0 auto 18px auto;
-  width: 317px;
-}
+
 
 .footer-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  margin: 0 auto 18px auto;
+  width: 317px;
 }
 
-.footer-icon {
+
+.footer-icon__link {
     font-size: 23px;
     font-weight: 600;
     color: rgba(255,255,255,0.7);
-    margin-right: 5px;
+    margin-right: 5px;  
 }
 
-.footer-icon:last-child {
+.footer-icon__link:last-child {
     margin-right: 0;
 }
 
-.footer-icon__fb:hover {
+.footer-icon:hover {
+  transform: scale(1.5,1.5);
+}
+
+.footer-icon__link-fb:hover {
   color: #3a5fc7;
-  transform: scale(1.5,1.5);
 }
 
-.footer-icon__tw:hover {
+.footer-icon__link-tw:hover {
   color: #3487e6;
-  transform: scale(1.5,1.5);
 }
 
-.footer-icon__gm:hover {
+.footer-icon__link-gm:hover {
   color: #121fda;
-  transform: scale(1.5,1.5);
 }
 
-.footer-icon__pt:hover {
+.footer-icon__link-pt:hover {
   color: #eb473c;
-  transform: scale(1.5,1.5);
 }
 
-.footer-icon__inst:hover {
+.footer-icon__link-inst:hover {
   color: #793ceb; 
-  transform: scale(1.5,1.5);
 }
 
-.footer-icon__su:hover {
+.footer-icon__link-su:hover {
   color: #e47814;
-  transform: scale(1.5,1.5);
 }
 
-.footer-icon__rss:hover {
+.footer-icon__link-rss:hover {
   color: #eb823c;
-  transform: scale(1.5,1.5);
 }
+
 .footer-text {
   margin: 0 auto !important;
   font-family: 'Open Sans', sans-serif;

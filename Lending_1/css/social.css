@@ -1,5 +1,18 @@
 
-.subtitle {
+.social-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+
+}
+
+.social-information {
+  width: 25%;
+  margin-left: 15px;
+}
+
+.social-subtitle {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -13,60 +26,60 @@
   text-align: left !important;
  
 }
-.social-row {
-  margin: -65px 0 0 525px;
-  max-width: 684px;
-}
 
 .social-list {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
+  width: 70%;
+  align-items: center;
+  margin-right: 15px;
 
 }
 
-.social-icon {
+.social-icon__link {
   font-size: 42px;
   font-weight: 600;
   color: rgba(29, 27, 27, 0.2);
-  margin-right: 15px;
 }
 
-.social-icon:last-child {
-  margin-right: 0;
+.social-icon {
+  margin-left: 65px;
 }
 
-.social-icon__fb:hover {
+.social-icon:hover {
+  transform: scale(1.5,1.5);
+}
+
+.social-icon:first-child {
+  margin-left: 0;
+}
+
+.social-icon__link-fb:hover {
 color: #3a5fc7;
-transform: scale(1.5,1.5);
+
 }
 
-.social-icon__tw:hover {
+.social-icon__link-tw:hover {
 color: #3487e6;
-transform: scale(1.5,1.5);
 }
 
-.social-icon__gm:hover {
+.social-icon__link-gm:hover {
 color: #121fda;
-transform: scale(1.5,1.5);
 }
 
-.social-icon__pt:hover {
+.social-icon__link-pt:hover {
 color: #eb473c;
-transform: scale(1.5,1.5);
 }
 
-.social-icon__inst:hover {
+.social-icon__link-inst:hover {
 color: #793ceb; 
-transform: scale(1.5,1.5);
 }
 
-.social-icon__su:hover {
+.social-icon__link-su:hover {
 color: #e47814;
-transform: scale(1.5,1.5);
 }
 
-.social-icon__rss:hover {
+.social-icon__link-rss:hover {
 color: #eb823c;
-transform: scale(1.5,1.5);
-}
+} 

@@ -1,0 +1,85 @@
+
+.contactus-form {
+  margin: 0 -15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  border-color: transparent;
+  
+}
+
+.registration-form_block {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px 0 15px;
+  border-color: transparent;
+}
+
+.textarea-item {
+  margin: 0 15px 0 30px;
+  width: 50%;
+}
+
+.input-item_message {
+  height: 216px;
+}
+
+.send-button__message {
+background-color:#EC7979;
+color: #FFFFFF;
+padding: 11px 32px;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+font-weight: 600;
+border-color: transparent;
+display: block;
+margin: 67px auto 0;
+cursor: pointer;
+}
+
+.send-button__message:hover {
+  transform: scale(1.25,1.25);
+}
+
+
+
+.form-sub-title {
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+font-weight: 700;
+  color: #333333;
+  line-height: 56px;
+  text-align: center;
+  width: 100%;
+}
+
+.keyword {
+text-transform: uppercase;
+color: rgba(236, 121, 121, 1);
+}
+
+.form-item {
+  width: 100%;
+ 
+}
+
+.input-item {
+     width: 100%;
+    border: #BDBDBD solid 1px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.input-item:focus {
+  outline: none;
+}
+
+.form-label {
+  color:#BDBDBD;
+  font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;

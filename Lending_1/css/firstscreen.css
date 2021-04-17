@@ -1,0 +1,134 @@
+
+
+.firstscreen-container{
+  z-index: 999;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.firstscreen-information {
+  margin: 0 15px;
+  max-width: 544px;
+  
+}
+
+.firstscreen-form {
+  margin-right: 15px;
+  width: 370px;
+  background-color: white;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  border-radius: 8px;
+  align-items: center;
+  border-color: transparent;
+}
+
+.firstscreen-logo {
+    font-size: 60px;
+    padding-bottom: 32px;
+}
+
+.firstscreen-main-title {
+  max-width: 544px;
+  padding-bottom: 71px;
+  margin-left: 0;
+}
+
+.firstscreen-text {
+  color:rgba(255, 255, 255, 0,8) !important;
+  max-width: 282px;
+  text-align: left !important;
+  margin-bottom: 32px !important;
+ 
+}
+
+.firstscreen-button {
+  text-align: center;
+  margin-left: 0;
+  color: #FFFFFF;
+  padding: 11px 26px;
+  border: 1px solid #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  width: 135px;
+ 
+}
+
+.firstscreen-button:hover {
+  transform: scale(1.25,1.25);
+}
+
+.reg-button__submit {
+  background-color:#EC7979;
+  color: #FFFFFF;
+  line-height: 53px;
+  width: 100%;
+  border-radius: 0px 0px 8px 8px;
+  font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+font-weight: 600;
+border-color: transparent;
+cursor: pointer;
+  }
+
+.reg-button {
+  width: 100%;
+  margin-top: 30px;
+  
+  
+}
+
+.form-sub-title {
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+font-weight: 700;
+  color: #333333;
+  line-height: 56px;
+  text-align: center;
+  width: 100%;
+ 
+  
+}
+
+.keyword {
+text-transform: uppercase;
+color: rgba(236, 121, 121, 1);
+
+}
+
+.form-item {
+  width: 100%;
+  padding: 0 59px;
+
+}
+
+.input-item {
+  
+    width: 100%;
+    border: #BDBDBD solid 1px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.input-item:focus {
+  outline: none;
+}
+
+.form-label {
+  color:#BDBDBD;
+  font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+
+}
+  
