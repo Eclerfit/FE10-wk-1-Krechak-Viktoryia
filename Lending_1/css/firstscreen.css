@@ -1,6 +1,4 @@
-
-
-.firstscreen-container{
+.firstscreen-container {
   z-index: 999;
   position: relative;
 }
@@ -15,12 +13,11 @@
 .firstscreen-information {
   margin: 0 15px;
   max-width: 544px;
-  
 }
 
 .firstscreen-form {
   margin-right: 15px;
-  width: 370px;
+  max-width: 370px;
   background-color: white;
   display: flex;
   flex-flow: column wrap;
@@ -31,22 +28,54 @@
 }
 
 .firstscreen-logo {
-    font-size: 60px;
-    padding-bottom: 32px;
+    font-size: 3.75rem;
+    padding-bottom: 2rem;
+    color:#FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    width: 10%;
 }
+  
+  .firstscreen-logo::after {
+    content: "it";
+    position: relative;
+    top: 0;
+    width: 0;
+    color: #EC7979;
+  }
 
-.firstscreen-main-title {
-  max-width: 544px;
-  padding-bottom: 71px;
-  margin-left: 0;
-}
+  .firstscreen-main-title {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    max-width: 544px;
+    padding-bottom: 4.4375rem;
+    margin-left: 0;
+    }
+  
+  .firstscreen-main-title::after {
+    content: "";
+    position: relative;
+    top: 2.625rem;
+    width: 4rem;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin-left: 0;
+    display: block;
+  }
 
-.firstscreen-text {
+  .firstscreen-text {
   color:rgba(255, 255, 255, 0,8) !important;
   max-width: 282px;
   text-align: left !important;
-  margin-bottom: 32px !important;
- 
+  margin-bottom: 2rem !important;
 }
 
 .firstscreen-button {
@@ -59,7 +88,7 @@
   font-size: 15px;
   font-weight: 600;
   display: block;
-  width: 135px;
+  width: 8.4375rem;
  
 }
 
@@ -74,61 +103,55 @@
   width: 100%;
   border-radius: 0px 0px 8px 8px;
   font-family: 'Open Sans', sans-serif;
-font-size: 15px;
-font-weight: 600;
-border-color: transparent;
-cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  border-color: transparent;
+  cursor: pointer;
   }
 
 .reg-button {
   width: 100%;
   margin-top: 30px;
-  
-  
 }
 
 .form-sub-title {
-font-family: 'Open Sans', sans-serif;
-font-size: 20px;
-font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
   color: #333333;
   line-height: 56px;
   text-align: center;
   width: 100%;
- 
-  
+  margin-bottom: 44px;
 }
 
-.keyword {
+.firstscreen-keyword {
 text-transform: uppercase;
 color: rgba(236, 121, 121, 1);
-
 }
 
-.form-item {
-  width: 100%;
+.firstscreen-form-item {
   padding: 0 59px;
-
+  margin-bottom: 19px;
 }
 
-.input-item {
-  
-    width: 100%;
-    border: #BDBDBD solid 1px;
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
+.firstscreen-input-item {
+  width: 100%;
+  border: #BDBDBD solid 1px;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
 }
 
-.input-item:focus {
+.firstscreen-input-item:focus {
   outline: none;
 }
 
-.form-label {
+.firstscreen-form-label {
   color:#BDBDBD;
   font-family: 'Open Sans', sans-serif;
-font-size: 14px;
-font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
 
 }
   

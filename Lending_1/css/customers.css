@@ -39,7 +39,7 @@
 
 .name {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #333333;
   margin-bottom: 12px;
@@ -48,7 +48,7 @@
 .prof {
   display: block;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   color: #86878B;
 }
@@ -59,10 +59,10 @@
   text-align: center;
   background-color: #E2E2E2;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   color: #86878B;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   position: relative;
   }
 

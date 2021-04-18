@@ -4,7 +4,7 @@
   flex-flow: row wrap;
   /*justify-content: center;*/
   justify-content: space-around;
-  margin: 0 -15px;
+  margin: 0 15px;
 }
 .awesome-card {
   text-align: center;
@@ -18,7 +18,7 @@
   border-radius: 50%;
   width: 70px;
   height: 70px;
-  margin: 0px auto 30px;
+  margin: 0 auto 30px;
  }
 
 .picture {
@@ -33,7 +33,7 @@
 
 .awesome-card__title {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #333333;
   margin-bottom: 16px;
   text-align: center;
@@ -41,7 +41,7 @@
 
 .awesome-card__text {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #86878b;
   text-align: center;
   margin-bottom: 59px;

@@ -15,29 +15,19 @@
 <header class="header">
   <div class="container header-container">
   <div class="row header-row">
-  <div class="logo header-logo">Ax</div>
+  <div class="logo header-logo"><a class="header-logo__link" href="#firstscreen">Ax</a></div>
   <nav class="menu header-menu">
     <ul class="list header-list">
-    <a class="header-menu__link" href="#">
-    <li class="header-menu__item">Feautures</li> 
-    </a>
-    <a class="header-menu__link" href="#">
-    <li class="header-menu__item">About</li>
-    </a>
-    <a class="header-menu__link" href="#">
-    <li class="header-menu__item">Pricing</li>
-    </a>
-    <a class="header-menu__link" href="#">
-    <li class="header-menu__item">Reviews</li>
-    </a>
-    <a class="header-menu__link" href="#">
-    <li class="header-menu__item">Contact</li>  
-    </a>  
+    <li class="header-menu__item"><a class="header-menu__link" href="#tab">Feautures</a></li> 
+    <li class="header-menu__item"> <a class="header-menu__link" href="#awesome">About</a></li>
+    <li class="header-menu__item"><a class="header-menu__link" href="#pricing">Pricing</a></li>
+    <li class="header-menu__item"><a class="header-menu__link" href="#customers">Reviews</a></li>
+    <li class="header-menu__item"><a class="header-menu__link" href="#contact">Contact</a></li>  
     </ul>
   </nav></div></div>
 </header>
 
-<section class="firstscreen">
+<section class="firstscreen" id="firstscreen">
   <div class="container firstscreen-container">
   <div class="row firstsreen-row">
     <div class="information firstscreen-information">
@@ -49,12 +39,12 @@
     <a class="firstscreen-button firstscreen-button__download" href="#">Download</a>
     </div>
     <form class="form firstscreen-form" action="#" method="POST" id="registration">
-      <h3 class="sub-title form-sub-title">Try Your <span class="keyword">free</span> Trial Today</h3>
-     <div class="form-item form-item_name"><label class="form-label form-label_name" for="user_name">Name</label><input class="input-item input-item_name" type="text" id="user_name" required>
+      <h3 class="sub-title form-sub-title">Try Your <span class="firstscreen-keyword">free</span> Trial Today</h3>
+     <div class="firstscreen-form-item form-item__name"><label class="firstscreen-form-label form-label__name" for="user-name">Name</label><input class="firstscreen-input-item input-item__name" type="text" id="user-name" required>
      </div>
-     <div class="form-item form-item_email"><label class="form-label form-label_email" for="user_email">Email</label><input class="input-item input-item_email"  type="email" id="user_email" required>
+     <div class="firstscreen-form-item form-item__email"><label class="firstscreen-form-label form-label__email" for="user-email">Email</label><input class="firstscreen-input-item input-item__email"  type="email" id="user-email" required>
      </div>
-     <div class="form-item form-item_password"><label class="form-label form-label_password" for="user_password">Password</label><input class="input-item input-item_password" type="password" id="user_password" required>
+     <div class="firstscreen-form-item form-item__password"><label class="firstscreen-form-label form-label__password" for="user-password">Password</label><input class="firstscreen-input-item input-item__password" type="password" id="user-password" required>
      </div>
      <div class="reg-button">
        <button class="reg-button__submit" type="submit" form="registration">Get Started</button>
@@ -109,7 +99,7 @@
   </div>
 </section>
 
-<section class="tab">
+<section class="tab" id="tab">
   <div class="container tab-container">
     <div class="row tab-row">
 
@@ -137,7 +127,7 @@
     </div>
  </section>
 
-<section class="awesome">
+<section class="awesome" id="awesome">
   <div class="container awesome-container">
          <h2 class="title awesome-title">Why this is awesome</h2>
      <div  class="text awesome-text">
@@ -166,7 +156,7 @@
     </div>
   </section>
 
-  <section class="pricing">
+  <section class="pricing" id="pricing">
     <div class="container pricing-container">
       <h2 class="title pricing-title">Pricing options</h2>
   <div  class="text pricing-text">
@@ -215,7 +205,7 @@
             </div>
             </section>
 
-  <section class="customers">
+  <section class="customers" id="customers">
     <div class="container customers-container">
       <h2 class="title customers-title">what our customers are saying</h2>
   <div  class="text customers-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div> 
@@ -282,22 +272,22 @@
     </div>
   </section>
 
-  <section class="contactus">
+  <section class="contactus" id="contact">
     <div class="container contactus-container">
            <h2 class="title contactus-title">Contact us</h2>
        <div class="text contactus-text">
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div> 
-         <form class="form contactus-form" action="#" method="POST" id="registration" readonly>
+         <form class="form contactus-form" action="#" method="POST" id="registration">
          <div class="registration-form registration-form_block">
-         <div class="form-item form-item_name"><label class="form-label form-label_name" for="user_name">Name</label><input class="input-item input-item_name" type="text" id="user_name" required>
+         <div class="contactus-form-item form-item__name"><label class="contactus-form-label form-label__name" for="user-name">Name</label><input class="contactus-input-item input-item__name" type="text" id="user-name" required>
          </div>
-         <div class="form-item form-item_email"><label class="form-label form-label_email" for="user_email">Email</label><input class="input-item input-item_email"  type="email" id="user_email" required>
+         <div class="contactus-form-item form-item__email"><label class="contactus-form-label form-label__email" for="user-email">Email</label><input class="contactus-input-item input-item__email"  type="email" id="user-email" required>
          </div>
-         <div class="form-item form-item_password"><label class="form-label form-label_password" for="user_password">Password</label><input class="input-item input-item_password" type="password" id="user_password" required>
+         <div class="contactus-form-item form-item__password"><label class="contactus-form-label form-label__password" for="user-password">Password</label><input class="contactus-input-item input-item__password" type="password" id="user-password" required>
          </div>
          </div>
-         <div class="textarea-item textarea-item_message"><label class="form-label form-label_message" for="user_message">Message</label><textarea class="input-item input-item_message" id="user_message" wrap readonly></textarea>
+         <div class="contactus-textarea-item textarea-item_message"><span class="contactus-form-label form-label__message" for="user-message">Message</span><textarea class="contactus-input-item input-item__message" id="user-message" wrap></textarea>
          </div> 
           </form>
           <div class="send-button">

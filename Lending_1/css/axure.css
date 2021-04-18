@@ -1,5 +1,3 @@
-
-
 .axure-container{
   z-index: 999;
   position: relative;
@@ -15,7 +13,7 @@
 .axure-text {
 color: rgba(255,255,255, 0.8) !important;
 font-family: 'Raleway', sans-serif !important;
-font-size: 16px !important;
+font-size: 1rem !important;
 font-weight: 300 !important;
 }
 
@@ -23,15 +21,15 @@ font-weight: 300 !important;
   text-align: center;
   margin: 0 auto;
   color: #FFFFFF;
-  padding: 11px 26px;
+  padding: 0.6875rem 1.625rem;
   border: 1px solid #FFFFFF;
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 600;
   display: block;
-  width: 135px;
+  width: 8.4375rem;
 }
 
 .axure-button:hover {
   transform: scale(1.25,1.25);
-
+}
