@@ -2,12 +2,12 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin: 0 -15px;
+  margin: 0 -0.9375rem;
 }
 
 .header-logo {
-  font-size: 30px;
-  margin-left: 15px;
+  font-size: 1.875rem;
+  margin-left: 0.9375rem;
 }
 
 .header-logo__link {
@@ -31,7 +31,7 @@
 
 .header-menu {
    width: 75%;
-   margin-right: 15px;
+   margin-right: 0.9375rem;
 }
 
 .header-list {
@@ -42,16 +42,16 @@
 }
 
 .header-menu__item {
-  margin-left: 40px;
+  margin-left: 2.5rem;
 }
 
 .header-menu__link {
   color: rgba(255,255,255,0.7);
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 600;
   display: block;
-  padding: 2px;
+  padding: 0.125rem;
   border: transparent 1px solid;
 }
 

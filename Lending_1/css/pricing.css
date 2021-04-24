@@ -1,56 +1,85 @@
+.pricing-title {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  font-weight: 400;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 3.5625rem;
+}
+
+.pricing-title::after {
+  content: "";
+  position: relative;
+  top: 1.5625rem;
+  width: 4rem;
+  height: 1px;
+  background-color: #EC7979;
+  margin: 0 auto;
+  display: block;
+}
+
+.pricing-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-align: center;
+  color: #86878B;
+  margin-bottom: 4.1825rem;
+}
 
 .pricing-row {
   display: flex;
   flex-flow: row wrap;
   /*justify-content: center;*/
   justify-content: space-around;
-  margin: 0 -15px;
+  margin: 0 -0.9375rem;
 }
 
 .pricing-card {
   text-align: center;
   line-height: center;
-  width: 340px;
-  margin-left: 15px;
-  margin-right: 15px;
-  line-height: 40px;
-  box-shadow: 5px 5px 5px 5px rgba(131, 125, 125, 0.9);
+  width: 21.25rem;
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+  line-height: 2.5rem;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem 0.3125rem rgba(131, 125, 125, 0.9);
 }
 .pricing-card:hover {
-  transform: translate(0, -30px);
+  transform: translate(0, -1.875px);
 }
 
 .pricing-list__title {
   background-color: #333333;
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  margin-bottom: 2px;
+  margin-bottom: 0.125rem;
   text-align: center;
-  line-height: 50px;
+  line-height: 3.125rem;
 }
 
 .pricing-list__price {
   background-color: #333333;
   color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
-  font-size: 35px;
+  font-size: 2.1875rem;
   font-weight: 700;
-  margin-bottom: 2px;
+  margin-bottom: 0.125rem;
   text-align: center;
-  line-height: 100px;
+  line-height: 6.25rem;
 }
 
 .pricing-list__text {
   background-color: #333333;
   color: rgba(255,255,255,.5);
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 800;
   text-align: center;
-  line-height: 50px;
-  margin-bottom: 4px;
+  line-height: 3.125rem;
+  margin-bottom: 0.25rem;
 }
 
   .pricing-list__text:hover {
@@ -59,11 +88,11 @@
  
   .pricing-list__item {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   text-align: center;
-  line-height: 40px;
+  line-height: 2.5rem;
   background-color: #FFFFFF;
-    color: #86878B;
-    margin-bottom: 4px;
+  color: #86878B;
+  margin-bottom: 0.25rem;
   }

@@ -3,15 +3,15 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin: 0 -15px;
+  margin: 0 -0.3125rem;
 }
 
 .tab-column {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
-  margin: 0 15px;
-  max-width: 112px;
+  margin: 0 0.3125rem;
+  max-width: 7rem;
 }
 .tab-button:last-child {
   margin-bottom: 0;
@@ -20,14 +20,14 @@
 .tab-button {
   background-color: #333333;
   color: #FFFFFF;
-  padding: 45px 35px;
+  padding: 2.8125rem 2.1825rem;
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 700;
   border-color: transparent;
   border-radius: 4px;
   display: block;
-  margin: 0 auto 10px;
+  margin: 0 auto 0.625rem;
 }
 
 
@@ -40,11 +40,11 @@ text-align: center;
 margin-left: 0;
 color: #FFFFFF;
 background-color:#EC7979;
-padding: 11px 26px;
+padding: 0.6875rem 1.625rem;
 border: 1px solid transparent;
 font-weight: 600;
 border-radius: 0;
-width: 135px;
+width: 8.4375rem;
 }
 
 .tab-button__download:hover {
@@ -56,31 +56,35 @@ transform: scale(1.25,1.25);
   flex-flow: column wrap;
   justify-content: space-between;
   align-content: center;
-  max-width: 572px;
-  margin: 0 15px;
+  max-width: 35.75rem;
+  margin: 0 0.3125rem;
 
 }
 
 .tab-subtitle {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
   text-align: left;
-  margin-bottom: 58px;
+  margin-bottom: 3.625rem;
 }
 
 .tab-text {
-  text-transform: uppercase !important;
-  text-align: justify !important;
-  margin-bottom: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #86878B;
+  text-transform: uppercase;
+  text-align: justify;
+  margin-bottom: 6.25rem;
 }
 
 .tab-picture {
   border-color: transparent;
-  margin: 0 15px;
-  max-width: 320px;
+  margin: 0 0.3125rem;
+  max-width: 20rem;
   
 }
 .picture {

@@ -4,16 +4,16 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin: 0 auto 18px auto;
-  width: 317px;
+  margin: 0 auto 1.125rem auto;
+  max-width: 19.8125rem;
 }
 
 
 .footer-icon__link {
-    font-size: 23px;
+    font-size: 1.4375rem;
     font-weight: 600;
     color: rgba(255,255,255,0.7);
-    margin-right: 5px;  
+    margin-right: 0.3125rem;  
 }
 
 .footer-icon__link:last-child {
@@ -53,9 +53,11 @@
 }
 
 .footer-text {
-  margin: 0 auto !important;
+  margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 400;
   color: rgba(255,255,255,0.5);
+  text-align: center;
+
 }

@@ -1,23 +1,53 @@
+.awesome-title {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  font-weight: 400;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 3.5625rem;
+}
+
+.awesome-title::after {
+  content: "";
+  position: relative;
+  top: 1.5625rem;
+  width: 4rem;
+  height: 1px;
+  background-color: #EC7979;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.awesome-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-align: center;
+  color: #86878B;
+  margin-bottom: 4.1825rem;
+}
 
 .awesome-row {
   display: flex;
   flex-flow: row wrap;
   /*justify-content: center;*/
   justify-content: space-around;
-  margin: 0 15px;
+  margin: 0 0.9375rem;
 }
 .awesome-card {
   text-align: center;
-  max-width: 350px;
-  margin-left: 15px;
-  margin-right: 15px;
+  max-width: 21.875rem;
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
 }
 
 .awesome-card__img {
   border: 1px #D98943 solid;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   margin: 0 auto 30px;
  }
 
@@ -35,7 +65,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 1.25rem;
   color: #333333;
-  margin-bottom: 16px;
+  margin-bottom: 1px;
   text-align: center;
 }
 
@@ -44,5 +74,5 @@
   font-size: 0.875rem;
   color: #86878b;
   text-align: center;
-  margin-bottom: 59px;
+  margin-bottom: 3.6875px;
 }

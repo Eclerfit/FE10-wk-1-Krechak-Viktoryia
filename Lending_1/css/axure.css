@@ -4,17 +4,34 @@
 }
 
 .axure-title {
-  color: #FFFFFF !important;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 3.5625rem;
 }
 
 .axure-title::after {
-  background-color: #FFFFFF !important;
+  content: "";
+  position: relative;
+  top: 1.5625rem;
+  width: 4rem;
+  height: 1px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  display: block;
 }
+
+
 .axure-text {
-color: rgba(255,255,255, 0.8) !important;
-font-family: 'Raleway', sans-serif !important;
-font-size: 1rem !important;
-font-weight: 300 !important;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  color: rgba(255,255,255, 0.8);
+  margin-bottom: 4.1825rem;
 }
 
 .axure-button {
