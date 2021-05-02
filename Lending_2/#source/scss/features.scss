@@ -1,0 +1,48 @@
+$black: #2d3033;
+$grey: #6c7279;
+
+.features-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 15px;
+  max-width: 1080px;
+}
+@mixin features-card {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 20px;
+
+  .features-card__img {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 30px;
+   }
+   .features-card__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $black;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .features-card__text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: $grey;
+    text-align: center;
+    margin-bottom: 75px;
+    @media (max-width: 765px) {
+      margin-bottom: 45px;
+    }
+  }
+}
+
+.features-card {
+  @include features-card ();
+}
+
+
+

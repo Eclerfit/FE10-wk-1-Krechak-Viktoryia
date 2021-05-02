@@ -1,0 +1,12 @@
+.works-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  max-width: 1940px;
+}
+
+.works-icon {
+  width: 450px;
+  height: 350px;
+  display: block;
+}

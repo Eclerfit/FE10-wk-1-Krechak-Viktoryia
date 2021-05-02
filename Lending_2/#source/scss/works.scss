@@ -1,0 +1,64 @@
+@mixin works-card {
+  width: 250px;
+  height: 170px;
+  display: block;
+  @media (max-width: 1320px) {
+  width: 220px;
+  height: 160px;
+  }
+
+  @media (max-width: 640px) {
+    width: 170px;
+    height: 120px;
+    }
+
+  
+}
+
+.works-card__3 {
+  @media (max-width: 480px) {
+    display: none;
+    }
+}
+
+.works-card__4 {
+  @media (max-width: 850px) {
+    display: none;
+    }
+}
+
+.works-card__5 {
+  @media (max-width: 1170px) {
+    display: none;
+    }
+}
+
+.works-card__6 {
+  @media (max-width: 1460px) {
+    display: none;
+    }
+}
+.works-card__7 {
+  @media (max-width: 1460px) {
+    display: none;
+    }
+}
+
+.works-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  
+  
+}
+
+.works-icon {
+  @include works-card();
+}
+
+.mask-layer{
+  background-color: $red;
+  z-index: 999;
+  opacity: 90%;
+}
+
