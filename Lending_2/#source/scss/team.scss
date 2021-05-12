@@ -4,6 +4,7 @@
   flex-flow: row wrap;
   justify-content: center;
   margin: 0 -15px;
+ 
   
 }
 @mixin team-card {
@@ -14,12 +15,37 @@
   @media (max-width: 1200px) {
     margin: 0 40px 40px;
   }
+  @media (max-width: 460px) {
+    margin-bottom: 70px;
+    
+  }}
+
+  .team-card:last-child {
+    margin-bottom: 0;
+    }
+
 
   .team-card__img {
     width: 250px;
     height: 250px;
     margin: 0 0 30px 0;
+    @media (max-width: 460px) {
+      
+      border-radius: 80%;
+      overflow: hidden;
+      width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+      
+    }
    }
+
+   .team-photo {
+     width: 100%;
+   }
+
+  
+
    .team-card__title {
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
@@ -27,6 +53,9 @@
     color: $black;
     margin-bottom: 15px;
     text-align: left;
+    @media (max-width: 460px) {
+      text-align: center;
+    }
   }
 
   .team-card__subtitle {
@@ -37,6 +66,10 @@
     color: $red;
     margin-bottom: 30px;
     text-align: left;
+    @media (max-width: 460px) {
+      margin-bottom: 10px;
+      text-align: center;
+    }
   }
   
   .team-card__text {
@@ -46,11 +79,17 @@
     color: $grey;
     text-align: left;
     margin-bottom: 30px;
+    @media (max-width: 460px) {
+      text-align: center;
+    }
   }
   .team-list {
     display: flex;
     flex-flow: row wrap;
     justify-content:left;
+    @media (max-width: 460px) {
+      justify-content: center;
+    }
   
   }
   
@@ -63,7 +102,7 @@
       padding: 10px;
       border: 1px solid #c5c9cb; 
   }
-}
+
 
 .team-card {
   @include team-card ();

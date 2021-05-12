@@ -5,8 +5,8 @@ $grey: #6c7279;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin: 0 15px;
-  max-width: 1080px;
+  margin: 0 -15px;
+  
 }
 @mixin features-card {
   text-align: center;

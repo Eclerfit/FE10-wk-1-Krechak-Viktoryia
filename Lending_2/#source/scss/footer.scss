@@ -4,23 +4,42 @@ $light-blue: #393d63;
 .footer-part1 {
 
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-start;
   margin: 0 -15px;
   padding-bottom: 115px;
-
+  @media (max-width: 767px) {
+   justify-content: space-around;
+   padding-bottom: 0;
 }
-
-
+ 
+}
 
 .footer-icons {
   max-width: 140px;
+ 
+ 
 }
 
 .footer-item {
   max-width: 220px;
   margin-right:40px;
+  @media (max-width: 767px) {
+    margin-bottom: 50px;
+    @media (max-width: 470px) {
+      margin: 0 40px 50px 40px;
+
+}
+}
+}
+
+.footer-item:last-child {
+  margin-right:0;
+  @media (max-width: 470px) {
+    margin: 0 40px 30px 40px;
+
+}
 }
 
 .footer-subtitle {
@@ -46,8 +65,7 @@ $light-blue: #393d63;
 }
 .heart {
   	
-
-  color: $red;
+ color: $red;
 }
 .author {
   color: $white;
@@ -67,6 +85,5 @@ $light-blue: #393d63;
     margin-right: 5px; 
     padding: 10px;
     border: 1px solid $white; 
+   
 }
-
-

@@ -1,64 +1,106 @@
-@mixin works-card {
-  width: 250px;
-  height: 170px;
-  display: block;
-  @media (max-width: 1320px) {
-  width: 220px;
-  height: 160px;
-  }
-
-  @media (max-width: 640px) {
-    width: 170px;
-    height: 120px;
-    }
-
-  
+.works {
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.works-card__3 {
-  @media (max-width: 480px) {
-    display: none;
-    }
-}
-
-.works-card__4 {
-  @media (max-width: 850px) {
-    display: none;
-    }
-}
-
-.works-card__5 {
-  @media (max-width: 1170px) {
-    display: none;
-    }
-}
-
-.works-card__6 {
-  @media (max-width: 1460px) {
-    display: none;
-    }
-}
-.works-card__7 {
-  @media (max-width: 1460px) {
-    display: none;
-    }
-}
-
 .works-row {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  
-  
+  @media (max-width:460px) {
+    
+  }
+}
+
+.works-card {
+  border: 1px solid whitesmoke;
+  width: 25%;
+  max-height: 350px;
+  overflow: hidden;
+  position: relative;
+  @media (max-width: 992px) {
+    width: 33.3%; 
+  }
+@media (max-width:767px) {
+  width: 50%;
+}
+@media (max-width:460px) {
+  width: 100%;
+}
+}
+
+
+  .works-card:nth-child(7), .works-card:nth-child(8) {
+    @media (max-width: 992px) {
+    display: none;
+    }
+}
+
+.works-card:nth-child(5), .works-card:nth-child(6) {
+  @media (max-width: 767px) {
+  display: none;
+  }
+}
+
+.works-card:nth-child(3), .works-card:nth-child(4) {
+  @media (max-width: 460px) {
+  display: none;
+  }
+}
+
+.works__img {
+  padding: 300px 300px 0px 0px;
+  overflow: hidden;
 }
 
 .works-icon {
-  @include works-card();
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.mask-layer{
-  background-color: $red;
-  z-index: 999;
-  opacity: 90%;
+  .works-mask{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  position: absolute;
+  top:0;
+  left:0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(232, 69, 69, 0.9);
+  a {
+  text-decoration: none;
+  cursor: pointer; 
 }
+      }
 
+        .works-card:hover .works-mask {
+        opacity: .85;
+          }
+
+  .works-subtitle{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    
+    display: block;
+ 
+  }
+  .works-content{
+    font-size: 0.875rem;
+    color: #fff;
+    
+    display: block;
+   
+    
+  }
+
+ 
+  

@@ -7,16 +7,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="shortcut icon" href="img/icons/favicon.ico">
   <title>Lending_2</title>
 </head>
 
 <body>
-
-  <section class='firstscreen'>
-    <div class='container firstscreen-container'>
-      <div class="block-part header-block-part">
+<div class="viewport">
+  <section class="header">
+    <div class='container header-container'>
       <div class="row header-row">
         <div class="logo header-logo"><img class="header-logo__link" src="img/icons/logo.png" alt="ActiveBox"></div>
+        <div class="burger-menu">
+          <input id="menu__toggle" type="checkbox">
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="burger-menu__list">
+            <li class="burger-menu__item"><a class="burger-menu__link" href="#features">Features</a></li> 
+            <li class="burger-menu__item"> <a class="burger-menu__link" href="#works">Works</a></li>
+            <li class="burger-menu__item"><a class="burger-menu__link" href="#team">Our team</a></li>
+            <li class="burger-menu__item"><a class="burger-menu__link" href="#testimonials">Testimonials</a></li>
+            <li class="burger-menu__item"><a class="burger-menu__link" href="#download">Download</a></li>  
+            </ul>
+         </div>
         <nav class="menu header-menu">
           <ul class="list header-list">
           <li class="header-menu__item"><a class="header-menu__link" href="#features">Features</a></li> 
@@ -26,14 +39,20 @@
           <li class="header-menu__item"><a class="header-menu__link" href="#download">Download</a></li>  
           </ul>
         </nav></div></div>
-        <div class="block-part firstscreen-block-part">
+  </section>
+
+
+  <section class='firstscreen'>
+    <div class='container firstscreen-container'>
         <h1 class="main-title firstscreen-main-title">Your Favorite One Page Multi Purpose Template</h1>
         <div class="text firstscreen-text">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.</p>
          </div> 
-         <button class="firstscreen-button firstscreen-button__download"  type="submit" href="#">Find out more</button> </div>
+         <button class="firstscreen-button firstscreen-button__download"  type="submit" href="#">Find out more</button> 
+         
     </div>
   </section>
+</div>
 
   <section class='features' id="features">
     <div class='container features-container'>
@@ -80,47 +99,100 @@
 
   <section class='works' id="works">
     
-      <div class="row works-row">
-        <div class="works-card works-card__1>
-          <img class="works-icon" src='img/pictures/first.png' alt='first'></div>
+ <div class="row works-row">
+ <div class="works-card works-card__1">
+  <div class="works__img"><img class="works-icon" src='img/pictures/first.png' alt='first'></div>
+
+  <div class="mask works-mask">
+    <a href="#"
+      ><h3 class="subtitle works-subtitle">Project name</h3>
+      <div class="content works-content">
+        <p class="text works-text">User Interface Design</p>
+      </div></a>
+  </div> </div>
           
 
-            <div class="works-card works-card__2">
-              <img class="works-icon" src='img/pictures/second.png' alt='second'></div>
+ <div class="works-card works-card__2">
+  <div class="works__img"> <img class="works-icon" src='img/pictures/second.png' alt='second'></div>
+  <div class="mask works-mask">
+    <a href="#"
+      ><h3 class="subtitle works-subtitle">Project name</h3>
+      <div class="content works-content">
+        <p class="text works-text">User Interface Design</p>
+      </div></a>
+  </div> </div>
               
+  <div class="works-card works-card__3">
+    <div class="works__img"><img class="works-icon" src='img/pictures/third.png' alt="third"></div> 
+    <div class="mask works-mask">
+      <a href="#"
+        ><h3 class="subtitle works-subtitle">Project name</h3>
+        <div class="content works-content">
+          <p class="text works-text">User Interface Design</p>
+        </div></a>
+    </div>  </div>         
 
-              <div class="works-card works-card__3">
-              <div class="mask-layer"> </div>
-                <img class="works-icon" src='img/pictures/third.png' alt="third">
-              </div>
-                
+   <div class="works-card works-card__4">
+    <div class="works__img"><img class="works-icon" src='img/pictures/fourth.png' alt='fourth'></div>
+    <div class="mask works-mask">
+      <a href="#"
+        ><h3 class="subtitle works-subtitle">Project name</h3>
+        <div class="content works-content">
+          <p class="text works-text">User Interface Design</p>
+        </div></a>
+    </div> </div>
 
-                <div class="works-card works-card__4">
-                  <img class="works-icon" src='img/pictures/fourth.png' alt='fourth'></div>
-                 
-
-                  <div class="works-card works-card__5">
-                    <img class="works-icon" src='img/pictures/fifth.png' alt='fifth'></div>
+   <div class="works-card works-card__5">
+    <div class="works__img"><img class="works-icon" src='img/pictures/fifth.png' alt='fifth'></div>
+    <div class="mask works-mask">
+      <a href="#"
+        ><h3 class="subtitle works-subtitle">Project name</h3>
+        <div class="content works-content">
+          <p class="text works-text">User Interface Design</p>
+        </div></a>
+    </div> </div>
                     
 
-                    <div class="works-card works-card__6">
-                      <img class="works-icon" src='img/pictures/sixth.png' alt='sixth'></div>
-                      
-                      <div class="works-card works-card__7">
-                        <img class="works-icon" src='img/pictures/seventh.png' alt='seventh'></div>
+  <div class="works-card works-card__6">
+    <div class="works__img"><img class="works-icon" src='img/pictures/sixth.png' alt='sixth'></div>
+    <div class="mask works-mask">
+      <a href="#"
+        ><h3 class="subtitle works-subtitle">Project name</h3>
+        <div class="content works-content">
+          <p class="text works-text">User Interface Design</p>
+        </div></a>
+    </div></div>
+   
+  <div class="works-card works-card__7">
+    <div class="works__img"><img class="works-icon" src='img/pictures/seventh.png' alt='seventh'></div>
+    <div class="mask works-mask">
+      <a href="#"
+        ><h3 class="subtitle works-subtitle">Project name</h3>
+        <div class="content works-content">
+          <p class="text works-text">User Interface Design</p>
+        </div></a>
+    </div></div>
                         
-                      <div class="works-card works-card__8">
-                        <img class="works-icon" src='img/pictures/eights.png' alt='eights'></div>
-                        </div>
-                       </div>
-      </div>
-  
-  </section>
+  <div class="works-card works-card__8">
+    <div class="works__img"><img class="works-icon" src='img/pictures/eights.png' alt='eights'></div>
+
+    <div class="mask works-mask">
+      <a href="#"
+        ><h3 class="subtitle works-subtitle">Project name</h3>
+        <div class="content works-content">
+          <p class="text works-text">User Interface Design</p>
+        </div></a></div>
+
+  </div>
+  </div>
+     
+    </section>
+
   <section class='team' id="team">
     <div class='container team-container'>
       <div class="row team-row">
         <div class="team-card">
-          <div class="team-card__img"><img class="team-icon" src='img/photos/person1.png' alt='person1'></div>
+          <div class="team-card__img"><img class="team-photo" src='img/photos/person1.png' alt='person1'></div>
           <h3 class="team-card__title">Ruth Woods</h3>
           <h4 class="team-card__subtitle">Founder, CEO</h4>
           <div class="team-card__text"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p></div>
@@ -141,7 +213,7 @@
         </div>
 
         <div class="team-card">
-          <div class="team-card__img"><img class="team-icon" src='img/photos/person2.png' alt='person2'></div>
+          <div class="team-card__img"><img class="team-photo" src='img/photos/person2.png' alt='person2'></div>
           <h3 class="team-card__title">Timothy Reed</h3>
           <h4 class="team-card__subtitle">Co-Founder, Developer</h4>
           <div class="team-card__text"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p></div>
@@ -162,7 +234,7 @@
         </div>
 
         <div class="team-card">
-          <div class="team-card__img"><img class="team-icon" src='img/photos/person3.png' alt='person3'></div>
+          <div class="team-card__img"><img class="team-photo" src='img/photos/person3.png' alt='person3'></div>
           <h3 class="team-card__title">Victoria Valdez</h3>
           <h4 class="team-card__subtitle">UI Designer</h4>
           <div class="team-card__text"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p></div>
@@ -183,7 +255,7 @@
         </div>
 
         <div class="team-card">
-          <div class="team-card__img"><img class="team-icon" src='img/photos/person4.png' alt='person4'></div>
+          <div class="team-card__img"><img class="team-photo" src='img/photos/person4.png' alt='person4'></div>
           <h3 class="team-card__title">Beverly Little</h3>
           <h4 class="team-card__subtitle">Data Scientist</h4>
           <div class="team-card__text"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p></div>
@@ -209,50 +281,53 @@
   <section class="clients" id="clients">
 <div class="slider"> 
 <div class="slider__item">
-<img class="client__photo" src="img/photos/сlient1.png" alt='client1'>
+  <div class="clients__photo"><img class="clients__img" src="img/photos/сlient1.png" alt='client1'>
 </div>
-<div class="slider__item slider__left-part">
-  <div class="slider-text">
-    <p class="slider-message">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
+<div class="clients__content">
+  <p class="clients__text">
+    “Integer posuere erat a ante venenatis dapibus posuere velit
+    aliquet. Donec sed odio dui. Aenean eu leo quam...”
+  </p>
+  <p class="clients__author">
+    Susan Sims, Interaction Designer at XYZ
+  </p>
+</div>
+</div>
+
+<div class="slider__item">
+  <div class="clients__photo"><img class="clients__img" src="img/photos/client2.png" alt='client2'>
+  </div>
+  <div class="clients__content">
+    <p class="clients__text">
+      “Integer posuere erat a ante venenatis dapibus posuere velit
+      aliquet. Donec sed odio dui. Aenean eu leo quam...”
     </p>
-    <p class="slider-client-name">
+    <p class="clients__author">
       Susan Sims, Interaction Designer at XYZ
     </p>
   </div>
   </div>
-<div class="slider__item">
-  <img class="client__photo" src="img/photos/client2.png" alt='client2'>
-  </div>
-
-  <div class="slider__item slider__left-part">
-    <div class="slider-text">
-      <p class="slider-message">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
-      </p>
-      <p class="slider-client-name">
-        Susan Sims, Interaction Designer at XYZ
-      </p>
-    </div>
-    </div>
 
     <div class="slider__item">
-      <img class="client__photo" src="img/photos/client4.png" alt='client4'>
+      <div class="clients__photo"><img class="clients__img" src="img/photos/client4.png" alt='client4'>
       </div>
-      <div class="slider__item slider__left-part">
-        <div class="slider-text">
-          <p class="slider-message">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
-          </p>
-          <p class="slider-client-name">
-            Susan Sims, Interaction Designer at XYZ
-          </p>
-        </div>
-        </div>
+      <div class="clients__content">
+        <p class="clients__text">
+          “Integer posuere erat a ante venenatis dapibus posuere velit
+          aliquet. Donec sed odio dui. Aenean eu leo quam...”
+        </p>
+        <p class="clients__author">
+          Susan Sims, Interaction Designer at XYZ
+        </p>
+      </div>
+      </div>
+
 </div>
   </section>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!--Подключение слайдера-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/script.js"></script>
- 
 
   <section class='download' id="download">
         <div class='container download-container'>
